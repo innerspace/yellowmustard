@@ -4,11 +4,11 @@
 <h2>This repo will contain a rehashing of the following package:</h2>
 
 <p>
-Name:  	 Calibre PHP webserver
-License:	 GPL v3
-Copyright:	 2010, Charles Haley  charles at haleys dot org
-http://charles.the-haleys.org/calibre/calibre_php_server-V0.2.8.txt
-http://charles.the-haleys.org/calibre/calibre_php_server-V0.2.8.zip
+Name:  	 Calibre PHP webserver<br>
+License:	 GPL v3<br>
+Copyright:	 2010, Charles Haley  charles at haleys dot org<br>
+http://charles.the-haleys.org/calibre/calibre_php_server-V0.2.8.txt<br>
+http://charles.the-haleys.org/calibre/calibre_php_server-V0.2.8.zip<br>
 </p>
 
 <h3><i>The author has stated that he no longer maintains/developes calibre-php.</i></h3>
@@ -26,7 +26,7 @@ Initial changes included in this repo:
 Things I've broken:
 </h2>
 <p>
--Sometime late last night I broke images associated with query results (covers!).
+-Sometime late last night I broke images associated with query results (covers!).<br>
 I have been unable to restore them on my dev install, however they still function on the 'production' server.
 <br>*NOTE: displaying images broke while creating classes for td/tr elements in 'books_section.tpl'.
 </p>
