@@ -6,10 +6,12 @@
 <p>
 Name:  	 Calibre PHP webserver
 License:	 GPL v3
-Copyright:	 2010, Charles Haley  charles at haleys dot org>
+Copyright:	 2010, Charles Haley  charles at haleys dot org
+http://charles.the-haleys.org/calibre/calibre_php_server-V0.2.8.txt
+http://charles.the-haleys.org/calibre/calibre_php_server-V0.2.8.zip
 </p>
 
-<h2><i>The author has stated that he no longer maintains/developes calibre-php.</i></h2>
+<h3><i>The author has stated that he no longer maintains/developes calibre-php.</i></h3>
 
 <h2>
 Initial changes included in this repo:
