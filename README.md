@@ -31,14 +31,9 @@ I have been unable to restore them on my dev install, however they still functio
 <br>*NOTE: displaying images broke while creating classes for td/tr elements in 'books_section.tpl'.
 </p>
 <h2>
-Install Instructions: 
+Install Instructions and Dependencies: 
 </h2>
-<p>Extract package to a web-server accessible directory, update values in 'config_local.php' to reflect your environment.
-Further instructions to follow.</p>
-<h2>
-Dependencies: 
-</h2>
-<p>Requires Smarty (instructions to follow)</p>
+<pSee INSTALL.</p>
 <h2>
 Goals:
 </h2>
