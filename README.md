@@ -11,7 +11,7 @@ http://charles.the-haleys.org/calibre/calibre_php_server-V0.2.8.txt<br>
 http://charles.the-haleys.org/calibre/calibre_php_server-V0.2.8.zip<br>
 </p>
 
-<h3><i>The author has stated that he no longer maintains/developes calibre-php.</i></h3>
+<h3><i>The author has stated that he no longer maintains/develops calibre-php.</i></h3>
 
 <h2>
 Initial changes included in this repo:
@@ -37,7 +37,7 @@ Install Instructions and Dependencies:
 <h2>
 Goals:
 </h2>
-Fixed broken images<br>
+Fix broken images<br>
 Redesign frontend<br>
 Implement login system<br>
 Implement admin system<br>
