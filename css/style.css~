@@ -1,0 +1,368 @@
+/*FONT-FACE DECLARATION CREATED BY FONTSQUIRREL*/
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('../fonts/oxygen-webfont.eot');
+    src: url('../fonts/oxygen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-webfont.woff') format('woff'),
+         url('../fonts/oxygen-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-webfont.svg#oxygenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oxygenbold';
+    src: url('../fonts/oxygen-bold-webfont.eot');
+    src: url('../fonts/oxygen-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-bold-webfont.woff') format('woff'),
+         url('../fonts/oxygen-bold-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-bold-webfont.svg#oxygenbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oxygenbold_italic';
+    src: url('../fonts/oxygen-bolditalic-webfont.eot');
+    src: url('../fonts/oxygen-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/oxygen-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-bolditalic-webfont.svg#oxygenbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oxygenitalic';
+    src: url('../fonts/oxygen-italic-webfont.eot');
+    src: url('../fonts/oxygen-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-italic-webfont.woff') format('woff'),
+         url('../fonts/oxygen-italic-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-italic-webfont.svg#oxygenitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*DISPLAY INLINE TO FIX PRE LIMITATIONS*/
+pre { 
+	display: inline;
+}
+
+/*STYLE ELEMENTS FOR HTML*/
+body {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+a {
+	color: green;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: small;
+	}
+
+
+h1, h2, h3, p {
+	color: black;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: small;
+	}
+
+td, th {
+	padding: 2px 4px;
+	color: black;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: small;
+	display: block;
+	}
+
+
+/*NORMALIZE INPUT STUFF TO KILL BROWSER'S INTERNAL STYLESHEET*/
+input, select {
+  	width: 100px;
+	padding: 2px 4px;
+	color: black;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: small;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+   border: 1px solid #ccc;
+}
+
+input[type="button"],
+input[type="submit"] {
+   padding: 2px;
+}
+
+/*
+span {
+	color: red;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	}
+*/
+
+table {
+	color: black;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: small;
+	display: block;
+	}
+
+
+img {
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+	display: inline-block;
+	}
+
+div {
+	color: black;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: small;
+	}
+
+
+/*THE FOLLOWING DIV EXISTS IN HEADER.TPL*/
+/* DIV containing HEADER elements */
+div.header {
+	float: none;
+	border-width: thin;
+	border-style: groove;
+	background-color: #FFFFFF;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	}
+
+/*TITLE upper left */
+table.page_title {
+	width: 100%;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+span.page_title {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+span.title {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+
+
+
+/*SEARCH FIELD was originally '<td align: "right">*/
+td.search {
+	float: right;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+div.search_field {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+div.current_search {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+tr.page_title {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+td.page_title {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+tr.prev_next {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+/* NAV UDUDLRLRBABASS */
+
+td.nav {
+	float: right;
+	vertical-align:text-top;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+td.prev_next {
+	float: left;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+td.sort {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	}
+
+
+
+
+
+
+/*THE FOLLOWING TWO DIVS EXIST IN INDEX.TPL*/
+div.titles {
+	padding-right: 20px;
+	float: left; 
+	width: 300px;
+	}
+
+div.categories {
+	padding-right: 20px;
+	float: left;
+	width: 300px;
+	}
+
+/*THE FOLLOWING DIV EXISTS IN FOOTER.TPL*/
+div.footer {
+	float: none;
+	border-width: thin;
+	border-style: groove;
+	background-color: #E8A813;
+	}
+/* These 3 divs do NOT inherit COLOR */
+div.library {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	float:right;
+	}
+
+div.date {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	float: left;
+	padding-right: 2px;
+	}
+
+div.version {
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	float: right;
+	padding-left: 2px;
+	}
+
+/* THE FOLLOWING ITEMS LIVE IN books_section.tpl */
+
+table.books_section {
+	border: 1px solid black;
+	table-layout:fixed;
+	width: "1000px";/* Important */	
+	display: block;
+	}
+
+tr.query_results {
+	height: 300px;
+	width: auto;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	font-size: medium;
+	color: black;
+	display: block;
+	}
+
+td.book_cover {
+	border: 1px solid black;
+	overflow: hidden;
+	max-width: 300px;
+	min-width: 300px
+	width: 300px;
+	height: 300px;
+	display: block;
+	}
+
+td.book_info {
+	vertical-align:text-top;
+	border: 1px solid black;
+	overflow: hidden;
+	width: 100px;
+	font-size: small;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	}
+
+td.book_title {
+	border: 1px solid black;
+	overflow: hidden;
+	font-size: medium;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	}
+
+td.book_author {
+	border: 1px solid black;
+	overflow: hidden;
+	font-size: small;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	}
+
+td.book_formats {
+	border: 1px solid black;
+	overflow: hidden;
+	font-size: small;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	}
+
+td.book_details {
+	vertical-align:text-top;
+	border: 1px solid black;
+	overflow: hidden;
+	width: 100px;
+	font-size: small;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	}
+
+div.book_details {
+	border-width: thick;
+	border-style: groove;
+	width: 100px;
+	font-size: small;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	}
+
+td.book_comments {
+	vertical-align:text-top;
+	border: 1px solid black;
+	overflow: hidden;
+	width: 200px;
+	font-size: small;
+	font-family: 'oxygenregular', Verdana, sans-serif;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

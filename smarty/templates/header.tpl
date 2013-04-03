@@ -1,0 +1,79 @@
+{{*<!--
+        Name:		 Calibre PHP webserver
+        License:	 GPL v3
+        Copyright:	 2010, Charles Haley <charles@haleys.org
+-->*}}
+<html lang="en">
+
+<head>
+<title>{{$title}}</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+</head>
+
+<body>
+<div class="header">
+<table class="page_title">
+    <tr class="page_title">
+    <td class="page_title">
+        <span class="page_title">{{$page_title}}</span><br><span class="title">{{$title}}</span>
+
+    </td>
+    <td>&nbsp;</td>
+    <td class="search">
+        <form action="index.php" method="get" >
+            <div class="search_field">
+                <input name="query" type="text">
+                <input style="vertical-align:top" name="search" type="submit" value="Search">
+                <input type="hidden" name="m" value="search">
+            </div>
+            <div class="current_search">
+                Current search: {{$last_search}}
+                {{if $search_error}}<br>{{$search_error}}{{/if}}
+            </div>
+        </form>
+    </td>
+    </tr>
+    <tr class="prev_next">
+{{if $page}}
+    <form action="index.php" method="get" >
+        <td class="prev_next">
+            {{if $page_back}}<a href="{{$page_back}}">prev</a>{{else}}prev{{/if}}
+            &nbsp;&nbsp;&nbsp;Page <input name="p" type="text" size="1" value="{{$page}}">
+            <input name="gotopage" type="submit" value="Go!"> of {{$maxpage}}&nbsp;&nbsp;&nbsp;
+            {{foreach from=$prev_next item=item}}
+                <input type="hidden" name="{{$item[0]}}" value="{{$item[1]}}">
+            {{/foreach}}
+            {{if $page_forw}}<a href="{{$page_forw}}">next</a>{{else}}next{{/if}}
+          </td>
+    </form>
+    <form action="index.php" method="get" >
+        <td class="sort">
+            Sort on:
+            <select name="sort_by" id="sortable">
+            {{foreach from=$sortable_fields item=sortable}}
+                <option value="{{$sortable}}" {{if $sortable == $current_sortable}}SELECTED{{/if}}>{{$sortable}}</option>
+            {{/foreach}}
+            </select>
+            &nbsp;
+            <select name="sort_direction">
+                <option value="0" {{if $current_sort_direction == 0}}SELECTED{{/if}}>Ascending</option>
+                <option value="1" {{if $current_sort_direction != 0}}SELECTED{{/if}}>Descending</option>
+            </select>
+            <input type="hidden" name="m" value="sort">
+            <input name="sort" type="submit" value="Go!">
+        </td>
+    </form>
+{{else}}
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+{{/if}}
+    <td class="nav">
+    <span>
+        {{if $use_back}}<a href="javascript: history.go(-1)">Back</a>{{/if}}
+        <a href="index.php">Home</a>
+        {{if $up_url}}<a href="{{$up_url}}">Up</a>{{else}}Up{{/if}}
+    </span>
+    </td>
+    </tr>
+</table>
+</div>
